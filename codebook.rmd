@@ -1,7 +1,7 @@
 ---
 title: "Codebook template"
-author: "Your name here"
-date: "The date here"
+author: "Ritchie Hok"
+date: "December 19, 2015"
 output:
   html_document:
     keep_md: yes
