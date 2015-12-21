@@ -34,27 +34,42 @@ names(data) <- c("subject", "activity", as.character(features[, 2]))
 data <- data[, !duplicated(colnames(data), fromLast = TRUE)] 
 
 ## select columns with mean and std in their name
-data <- select(data, matches('subject|activity|-mean|std'))
+data <- select(data, matches('subject|activity|-mean\\(\\)|std\\(\\)'))
 
 ## step 3
 
 ## label 'activity_labels' data set
-names(activity.labels) <- c("activity", "activity.name")
+names(activity.labels) <- c("activity", "activity-name")
 
 ## merge activity names into main data set
 data <- merge(data, activity.labels, by = "activity")
 
 ## step 4
+
 ## rename columns conforming to tidy data principles
+names(data) <- sub("-mean\\(\\)", "mean", names(data))
+names(data) <- sub("-std\\(\\)", "stdev", names(data))
+names(data) <- sub("BodyBody", "body-", names(data))
+names(data) <- sub("Body", "body-", names(data))
+names(data) <- sub("Acc", "accelerometer-", names(data))
+names(data) <- sub("Gravity", "gravity-", names(data))
+names(data) <- sub("Jerk", "jerk-", names(data))
+names(data) <- sub("Gyro", "gyroscope-", names(data))
+names(data) <- sub("Mag", "magnitude-", names(data))
+names(data) <- sub("^t", "t-", names(data))
+names(data) <- sub("^f", "f-", names(data))
+names(data) <- sub("-X$", "-x", names(data))
+names(data) <- sub("-Y$", "-y", names(data))
+names(data) <- sub("-Z$", "-z", names(data))
+
 
 ## step 5
 
 ## averages by subject/activity
-write.table(data %>%
-    group_by(subject, activity.name) %>%
-    summarize_each(funs(mean)) %>%
-    select(-activity), row.name = FALSE)
+##write.table(data %>%
+##    group_by(subject, activity-name) %>%
+##    summarize_each(funs(mean)) %>%
+##    select(-activity), row.name = FALSE)
   
-##write.table()
-## codebook, readme
+## readme
 ## 30 participants, 6 activities, 66 mean/std (11880 averages)
