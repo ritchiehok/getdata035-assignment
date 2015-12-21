@@ -61,12 +61,12 @@ Variable # | Variable Name | Variable Definition
 --- | --- | ---
 1|subject|participant number
 2 | activity-name | one of six activities of daily living: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-3 | t-body-accelerometer-mean-x |
-4 | t-body-accelerometer-mean-y |
-5 | t-body-accelerometer-mean-z |
-6 | t-body-accelerometer-stdev-x |             
-7 | t-body-accelerometer-stdev-y |
-8 | t-body-accelerometer-stdev-z |             
+3 | t-body-accelerometer-mean-x | mean time from the body accelerometer along the x-axis
+4 | t-body-accelerometer-mean-y | mean time from the body accelerometer along the y-axis
+5 | t-body-accelerometer-mean-z | mean time from the body accelerometer along the z-axis
+6 | t-body-accelerometer-stdev-x | standard deviation of the time from the body accelerometer along the x-axis           
+7 | t-body-accelerometer-stdev-y | standard deviation of the time from the body accelerometer along the y-axis    
+8 | t-body-accelerometer-stdev-z | standard deviation of the time from the body accelerometer along the z-axis                
 9 | t-gravity-accelerometer-mean-x |
 10 | t-gravity-accelerometer-mean-y |           
 11 | t-gravity-accelerometer-mean-z |
