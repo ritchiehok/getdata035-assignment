@@ -67,12 +67,18 @@ Variable # | Variable Name | Variable Definition
 6 | t-body-accelerometer-stdev-x |             
 7 | t-body-accelerometer-stdev-y |
 8 | t-body-accelerometer-stdev-z |             
- [9] "t-gravity-accelerometer-mean-x"            "t-gravity-accelerometer-mean-y"           
-[11] "t-gravity-accelerometer-mean-z"            "t-gravity-accelerometer-stdev-x"          
-[13] "t-gravity-accelerometer-stdev-y"           "t-gravity-accelerometer-stdev-z"          
-[15] "t-body-accelerometer-jerk-mean-x"          "t-body-accelerometer-jerk-mean-y"         
-[17] "t-body-accelerometer-jerk-mean-z"          "t-body-accelerometer-jerk-stdev-x"        
-[19] "t-body-accelerometer-jerk-stdev-y"         "t-body-accelerometer-jerk-stdev-z"        
+9 | t-gravity-accelerometer-mean-x |
+10 | t-gravity-accelerometer-mean-y |           
+11 | t-gravity-accelerometer-mean-z |
+12 | t-gravity-accelerometer-stdev-x |          
+13 | t-gravity-accelerometer-stdev-y |
+14 | t-gravity-accelerometer-stdev-z |          
+15 | t-body-accelerometer-jerk-mean-x |
+16 | t-body-accelerometer-jerk-mean-y |         
+17 | t-body-accelerometer-jerk-mean-z |
+18 | t-body-accelerometer-jerk-stdev-x |        
+19 | t-body-accelerometer-jerk-stdev-y |
+20 | t-body-accelerometer-jerk-stdev-z |       
 [21] "t-body-gyroscope-mean-x"                   "t-body-gyroscope-mean-y"                  
 [23] "t-body-gyroscope-mean-z"                   "t-body-gyroscope-stdev-x"                 
 [25] "t-body-gyroscope-stdev-y"                  "t-body-gyroscope-stdev-z"                 
