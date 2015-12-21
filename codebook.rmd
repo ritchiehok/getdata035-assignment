@@ -113,13 +113,20 @@ Variable # | Variable Name | Variable Definition
 52 | f-body-accelerometer-jerk-stdev-x |        
 53 | f-body-accelerometer-jerk-stdev-y |
 54 | f-body-accelerometer-jerk-stdev-z |        
-[55] "f-body-gyroscope-mean-x"                   "f-body-gyroscope-mean-y"                  
-[57] "f-body-gyroscope-mean-z"                   "f-body-gyroscope-stdev-x"                 
-[59] "f-body-gyroscope-stdev-y"                  "f-body-gyroscope-stdev-z"                 
-[61] "f-body-accelerometer-magnitude-mean"       "f-body-accelerometer-magnitude-stdev"     
-[63] "f-body-accelerometer-jerk-magnitude-mean"  "f-body-accelerometer-jerk-magnitude-stdev"
-[65] "f-body-gyroscope-magnitude-mean"           "f-body-gyroscope-magnitude-stdev"         
-[67] "f-body-gyroscope-jerk-magnitude-mean"      "f-body-gyroscope-jerk-magnitude-stdev"    
+55 | f-body-gyroscope-mean-x |
+56 | f-body-gyroscope-mean-y |
+57 | f-body-gyroscope-mean-z |
+58 | f-body-gyroscope-stdev-x |
+59 | f-body-gyroscope-stdev-x |
+60 | f-body-gyroscope-stdev-x |
+61 | f-body-accelerometer-magnitude-mean |
+62 | f-body-accelerometer-magnitude-stdev |
+63 | f-body-accelerometer-jerk-magnitude-mean |
+64 | f-body-accelerometer-jerk-magnitude-stdev |
+65 | f-body-gyroscope-magnitude-mean |
+66 | f-body-gyroscope-magnitude-stdev |         
+67 | f-body-gyroscope-jerk-magnitude-mean |
+68 | f-body-gyroscope-jerk-magnitude-stdev |    
 
 ##Sources
 Sources you used if any, otherise leave out.
