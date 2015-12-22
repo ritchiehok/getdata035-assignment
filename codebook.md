@@ -101,21 +101,21 @@ Variable # | Variable Name | Variable Definition
 40 | t-body-gyroscope-magnitude-stdev | standard deviation of the time from the body gyroscope measuring magnitude        
 41 | t-body-gyroscope-jerk-magnitude-mean | mean time from the body gyroscope measuring jerk
 42 | t-body-gyroscope-jerk-magnitude-stdev | standard deviation of the time from the body gyroscope measuring jerk
-43 | f-body-accelerometer-mean-x |              
-44 | f-body-accelerometer-mean-y |
-45 | f-body-accelerometer-mean-z |
-46 | f-body-accelerometer-stdev-x |      
-47 | f-body-accelerometer-stdev-y | 
-48 | f-body-accelerometer-stdev-z | 
-49 | f-body-accelerometer-jerk-mean-x |
-50 | f-body-accelerometer-jerk-mean-y |
-51 | f-body-accelerometer-jerk-mean-z |
-52 | f-body-accelerometer-jerk-stdev-x |        
-53 | f-body-accelerometer-jerk-stdev-y |
-54 | f-body-accelerometer-jerk-stdev-z |        
-55 | f-body-gyroscope-mean-x |
-56 | f-body-gyroscope-mean-y |
-57 | f-body-gyroscope-mean-z |
+43 | f-body-accelerometer-mean-x | mean frequency domain signal from the body accelerometer along the x-axis        
+44 | f-body-accelerometer-mean-y | mean frequency domain signal from the body accelerometer along the y-axis
+45 | f-body-accelerometer-mean-z | mean frequency domain signal from the body accelerometer along the z-axis
+46 | f-body-accelerometer-stdev-x | standard deviation of the frequency domain signal from the body accelerometer along the x-axis
+47 | f-body-accelerometer-stdev-y | standard deviation of the frequency domain signal from the body accelerometer along the y-axis
+48 | f-body-accelerometer-stdev-z | standard deviation of the frequency domain signal from the body accelerometer along the z-axis
+49 | f-body-accelerometer-jerk-mean-x | mean frequency domain signal from the body accelerometer measuring jerk along the x-axis
+50 | f-body-accelerometer-jerk-mean-y | mean frequency domain signal from the body accelerometer measuring jerk along the y-axis
+51 | f-body-accelerometer-jerk-mean-z | mean frequency domain signal from the body accelerometer measuring jerk along the z-axis
+52 | f-body-accelerometer-jerk-stdev-x | standard deviation of the frequency domain signal from the body accelerometer measuring jerk along the x-axis        
+53 | f-body-accelerometer-jerk-stdev-y | standard deviation of the frequency domain signal from the body accelerometer measuring jerk along the y-axis 
+54 | f-body-accelerometer-jerk-stdev-z | standard deviation of the frequency domain signal from the body accelerometer measuring jerk along the z-axis         
+55 | f-body-gyroscope-mean-x | mean frequency domain signal from the body gyroscope along the x-axis
+56 | f-body-gyroscope-mean-y | mean frequency domain signal from the body gyroscope along the y-axis
+57 | f-body-gyroscope-mean-z | mean frequency domain signal from the body gyroscope along the z-axis
 58 | f-body-gyroscope-stdev-x |
 59 | f-body-gyroscope-stdev-x |
 60 | f-body-gyroscope-stdev-x |
