@@ -116,17 +116,17 @@ Variable # | Variable Name | Variable Definition
 55 | f-body-gyroscope-mean-x | mean frequency domain signal from the body gyroscope along the x-axis
 56 | f-body-gyroscope-mean-y | mean frequency domain signal from the body gyroscope along the y-axis
 57 | f-body-gyroscope-mean-z | mean frequency domain signal from the body gyroscope along the z-axis
-58 | f-body-gyroscope-stdev-x |
-59 | f-body-gyroscope-stdev-x |
-60 | f-body-gyroscope-stdev-x |
-61 | f-body-accelerometer-magnitude-mean |
-62 | f-body-accelerometer-magnitude-stdev |
-63 | f-body-accelerometer-jerk-magnitude-mean |
-64 | f-body-accelerometer-jerk-magnitude-stdev |
-65 | f-body-gyroscope-magnitude-mean |
-66 | f-body-gyroscope-magnitude-stdev |         
-67 | f-body-gyroscope-jerk-magnitude-mean |
-68 | f-body-gyroscope-jerk-magnitude-stdev |    
+58 | f-body-gyroscope-stdev-x | standard deviation of the frequency domain signal from the body gyroscope along the x-axis
+59 | f-body-gyroscope-stdev-y | standard deviation of the frequency domain signal from the body gyroscope along the x-axis
+60 | f-body-gyroscope-stdev-z | standard deviation of the frequency domain signal from the body gyroscope along the x-axis
+61 | f-body-accelerometer-magnitude-mean | mean frequency domain signal from the body accelerometer measuring magnitude
+62 | f-body-accelerometer-magnitude-stdev | standard deviation of the frequency domain signal from the body accelerometer measuring magnitude
+63 | f-body-accelerometer-jerk-magnitude-mean | mean frequency domain signal from the body accelerometer measuring jerk and magnitude
+64 | f-body-accelerometer-jerk-magnitude-stdev | standard deviation of the frequency domain signal from the body accelerometer measuring jerk and magnitude
+65 | f-body-gyroscope-magnitude-mean | mean frequency domain signal from the body gyroscope
+66 | f-body-gyroscope-magnitude-stdev | standard deviation of the frequency domain signal from the body gyroscope         
+67 | f-body-gyroscope-jerk-magnitude-mean | mean frequency domain signal from the body gyroscope measuring jerk and magnitude
+68 | f-body-gyroscope-jerk-magnitude-stdev | standard deviation of the frequency domain signal from the body gyroscope measuring jerk and magnitude    
 
 ##Sources
 Sources you used if any, otherise leave out.
