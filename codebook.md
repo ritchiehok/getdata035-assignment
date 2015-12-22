@@ -114,10 +114,4 @@ Variable # | Variable Name | Variable Definition
 65 | f-body-gyroscope-magnitude-mean | mean frequency domain signal from the body gyroscope
 66 | f-body-gyroscope-magnitude-stdev | standard deviation of the frequency domain signal from the body gyroscope         
 67 | f-body-gyroscope-jerk-magnitude-mean | mean frequency domain signal from the body gyroscope measuring jerk and magnitude
-68 | f-body-gyroscope-jerk-magnitude-stdev | standard deviation of the frequency domain signal from the body gyroscope measuring jerk and magnitude    
-
-##Sources
-Sources you used if any, otherise leave out.
-
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
+68 | f-body-gyroscope-jerk-magnitude-stdev | standard deviation of the frequency domain signal from the body gyroscope measuring jerk and magnitude
