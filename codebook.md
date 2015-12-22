@@ -40,15 +40,14 @@ The run_analysis.R script accomplishes the following steps:
 (4) Appropriately labels the data set with descriptive variable names. 
 (5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  [See ReadMe file for additional details: https://github.com/ritchiehok/getdata035-assignment/blob/master/README.md]
 
-##Description of the variables in the tidy_data.txt file
-General description of the file including:
- - Dimensions of the dataset
- - Summary of the data
- - Variables present in the dataset
+##Description of the variables in the output data set
+The output data set contains the mean of the mean and standard deviation measures by participant and activity.
+
+There are 30 participants in total, each with measurements for six activities of daily living (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) for a total of 180 rows.  Mean measurements are recorded for 66 mean and standard deviation variables which are described below (68 columns in total when subject and activity are included).
 
 Variable # | Variable Name | Variable Definition
 --- | --- | ---
-1|subject|participant number
+1 | subject | participant number
 2 | activity-name | one of six activities of daily living: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 3 | t-body-accelerometer-mean-x | mean time from the body accelerometer along the x-axis
 4 | t-body-accelerometer-mean-y | mean time from the body accelerometer along the y-axis
