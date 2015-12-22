@@ -76,31 +76,31 @@ Variable # | Variable Name | Variable Definition
 15 | t-body-accelerometer-jerk-mean-x | mean time from the body accelerometer measuring jerk along the x-axis
 16 | t-body-accelerometer-jerk-mean-y | mean time from the body accelerometer measuring jerk along the y-axis        
 17 | t-body-accelerometer-jerk-mean-z | mean time from the body accelerometer measuring jerk along the z-axis
-18 | t-body-accelerometer-jerk-stdev-x |        
-19 | t-body-accelerometer-jerk-stdev-y |
-20 | t-body-accelerometer-jerk-stdev-z |       
-21 | t-body-gyroscope-mean-x |
-22 | t-body-gyroscope-mean-y |                  
-23 | t-body-gyroscope-mean-z |
-24 | t-body-gyroscope-stdev-x |                 
-25 | t-body-gyroscope-stdev-y |
-26 | t-body-gyroscope-stdev-z |                 
-27 | t-body-gyroscope-jerk-mean-x |
-28 | t-body-gyroscope-jerk-mean-y |             
-29 | t-body-gyroscope-jerk-mean-z
-30 | t-body-gyroscope-jerk-stdev-x |            
-31 | t-body-gyroscope-jerk-stdev-y |
-32 | t-body-gyroscope-jerk-stdev-z |
-33 | t-body-accelerometer-magnitude-mean |
-34 | t-body-accelerometer-magnitude-stdev |     
-35 | t-gravity-accelerometer-magnitude-mean |
-36 | t-gravity-accelerometer-magnitude-stdev |  
-37 | t-body-accelerometer-jerk-magnitude-mean |
-38 | t-body-accelerometer-jerk-magnitude-stdev |
-39 | t-body-gyroscope-magnitude-mean |
-40 | t-body-gyroscope-magnitude-stdev |         
-41 | t-body-gyroscope-jerk-magnitude-mean |
-42 | t-body-gyroscope-jerk-magnitude-stdev |
+18 | t-body-accelerometer-jerk-stdev-x | standard deviation of the time from the body accelerometer measuring jerk along the x-axis   
+19 | t-body-accelerometer-jerk-stdev-y | standard deviation of the time from the body accelerometer measuring jerk along the y-axis
+20 | t-body-accelerometer-jerk-stdev-z | standard deviation of the time from the body accelerometer measuring jerk along the z-axis   
+21 | t-body-gyroscope-mean-x | mean time from the body gyroscope along the x-axis
+22 | t-body-gyroscope-mean-y | mean time from the body gyroscope along the y-axis                 
+23 | t-body-gyroscope-mean-z | mean time from the body gyroscope along the z-axis
+24 | t-body-gyroscope-stdev-x | standard deviation of the time from the body gyroscope along the x-axis                 
+25 | t-body-gyroscope-stdev-y | standard deviation of the time from the body gyroscope along the y-axis
+26 | t-body-gyroscope-stdev-z | standard deviation of the time from the body gyroscope along the z-axis                 
+27 | t-body-gyroscope-jerk-mean-x | mean time from the body gyroscope measuring jerk along the x-axis
+28 | t-body-gyroscope-jerk-mean-y | mean time from the body gyroscope measuring jerk along the y-axis            
+29 | t-body-gyroscope-jerk-mean-z | mean time from the body gyroscope measuring jerk along the z-axis
+30 | t-body-gyroscope-jerk-stdev-x | standard deviation of the time from the body gyroscope measuring jerk along the x-axis          
+31 | t-body-gyroscope-jerk-stdev-y | standard deviation of the time from the body gyroscope measuring jerk along the y-axis
+32 | t-body-gyroscope-jerk-stdev-z | standard deviation of the time from the body gyroscope measuring jerk along the z-axis
+33 | t-body-accelerometer-magnitude-mean | mean time from the body accelerometer measuring magnitude
+34 | t-body-accelerometer-magnitude-stdev | standard deviation of the time from the body accelerometer measuring magnitude    
+35 | t-gravity-accelerometer-magnitude-mean | mean time from the gravity accelerometer measuring magnitude
+36 | t-gravity-accelerometer-magnitude-stdev | standard deviation of the  time from the gravity accelerometer measuring magnitude
+37 | t-body-accelerometer-jerk-magnitude-mean | mean time from the body accelerometer measuring jerk and magnitude
+38 | t-body-accelerometer-jerk-magnitude-stdev | standard deviation of the time from the body accelerometer measuring jerk and magnitude
+39 | t-body-gyroscope-magnitude-mean | mean time from the body gyroscope measuring magnitude
+40 | t-body-gyroscope-magnitude-stdev | standard deviation of the time from the body gyroscope measuring magnitude        
+41 | t-body-gyroscope-jerk-magnitude-mean | mean time from the body gyroscope measuring jerk
+42 | t-body-gyroscope-jerk-magnitude-stdev | standard deviation of the time from the body gyroscope measuring jerk
 43 | f-body-accelerometer-mean-x |              
 44 | f-body-accelerometer-mean-y |
 45 | f-body-accelerometer-mean-z |
