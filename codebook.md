@@ -67,15 +67,15 @@ Variable # | Variable Name | Variable Definition
 6 | t-body-accelerometer-stdev-x | standard deviation of the time from the body accelerometer along the x-axis           
 7 | t-body-accelerometer-stdev-y | standard deviation of the time from the body accelerometer along the y-axis    
 8 | t-body-accelerometer-stdev-z | standard deviation of the time from the body accelerometer along the z-axis                
-9 | t-gravity-accelerometer-mean-x |
-10 | t-gravity-accelerometer-mean-y |           
-11 | t-gravity-accelerometer-mean-z |
-12 | t-gravity-accelerometer-stdev-x |          
-13 | t-gravity-accelerometer-stdev-y |
-14 | t-gravity-accelerometer-stdev-z |          
-15 | t-body-accelerometer-jerk-mean-x |
-16 | t-body-accelerometer-jerk-mean-y |         
-17 | t-body-accelerometer-jerk-mean-z |
+9 | t-gravity-accelerometer-mean-x | mean time from the gravity accelerometer along the x-axis
+10 | t-gravity-accelerometer-mean-y | mean time from the gravity accelerometer along the y-axis           
+11 | t-gravity-accelerometer-mean-z | mean time from the gravity accelerometer along the z-axis
+12 | t-gravity-accelerometer-stdev-x | standard deviation of the time from the gravity accelerometer along the x-axis          
+13 | t-gravity-accelerometer-stdev-y | standard deviation of the time from the gravity accelerometer along the y-axis
+14 | t-gravity-accelerometer-stdev-z | standard deviation of the time from the gravity accelerometer along the z-axis          
+15 | t-body-accelerometer-jerk-mean-x | mean time from the body accelerometer measuring jerk along the x-axis
+16 | t-body-accelerometer-jerk-mean-y | mean time from the body accelerometer measuring jerk along the y-axis        
+17 | t-body-accelerometer-jerk-mean-z | mean time from the body accelerometer measuring jerk along the z-axis
 18 | t-body-accelerometer-jerk-stdev-x |        
 19 | t-body-accelerometer-jerk-stdev-y |
 20 | t-body-accelerometer-jerk-stdev-z |       
