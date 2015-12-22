@@ -1,5 +1,5 @@
 ---
-title: "Codebook template"
+title: "Codebook for Data Analysis Work on Human Activity Recognition using Smartphones"
 author: "Ritchie Hok"
 date: "December 19, 2015"
 output:
