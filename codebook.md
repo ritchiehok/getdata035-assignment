@@ -8,7 +8,7 @@ output:
 ---
 
 ## Project Description
-run_analysis.R
+The run_analysis.R script calculates the mean of the mean and standard deviation measures by participant and activity.
 
 ##Study design and data processing
 The *Human Activity Recognition Using Smartphones* data set is built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
@@ -33,29 +33,18 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 Description on how to create the tidy data file (1. download the data, ...)/
 
 ###Cleaning of the data
-Short, high-level description of what the cleaning script does. [link to the readme document that describes the code in greater detail]()
+The run_analysis.R script accomplishes the following steps:
+(1) Merges the training and the test sets to create one data set
+(2) Extracts only the measurements on the mean and standard deviation for each measurement 
+(3) Uses descriptive activity names to name the activities in the data set
+(4) Appropriately labels the data set with descriptive variable names. 
+(5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  [https://github.com/ritchiehok/getdata035-assignment/blob/master/README.md]()
 
-##Description of the variables in the tiny_data.txt file
+##Description of the variables in the tidy_data.txt file
 General description of the file including:
  - Dimensions of the dataset
  - Summary of the data
  - Variables present in the dataset
-
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
-
-###Variable 1 (repeat this section for all variables in the dataset)
-Short description of what the variable describes.
-
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
-
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
-
-####Notes on variable 1:
-If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
 
 Variable # | Variable Name | Variable Definition
 --- | --- | ---
