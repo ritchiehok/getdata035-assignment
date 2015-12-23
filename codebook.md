@@ -54,7 +54,7 @@ There are 30 participants in total, each with measurements for six activities of
 Variable # | Variable Name | Variable Definition
 --- | --- | ---
 1 | subject | participant number
-2 | activity-name | one of six activities of daily living: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+2 | activities | one of six activities of daily living: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 3 | t-body-accelerometer-mean-x | mean time from the body accelerometer along the x-axis
 4 | t-body-accelerometer-mean-y | mean time from the body accelerometer along the y-axis
 5 | t-body-accelerometer-mean-z | mean time from the body accelerometer along the z-axis
