@@ -1,4 +1,4 @@
-/---
+---
 title: "Codebook for Data Analysis Work on Human Activity Recognition using Smartphones"
 author: "Ritchie Hok"
 date: "December 19, 2015"
@@ -38,6 +38,7 @@ Description on how to create the tidy data file (1. download the data, ...)/
 
 ###Cleaning of the data
 The run_analysis.R script accomplishes the following steps:
+
 (1) Merges the training and the test sets to create one data set
 
 (2) Extracts only the measurements on the mean and standard deviation for each measurement 
