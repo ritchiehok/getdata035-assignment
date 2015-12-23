@@ -2,13 +2,10 @@
 title: "Codebook for Data Analysis Work on Human Activity Recognition using Smartphones"
 author: "Ritchie Hok"
 date: "December 19, 2015"
-output:
-  html_document:
-    keep_md: yes
 ---
 
 ## Project Description
-The run_analysis.R script calculates the mean of the mean and standard deviation measures by participant and activity.
+The run_analysis.R script calculates the average of the mean and standard deviation measures by participant and activity.
 
 ##Study design and data processing
 The *Human Activity Recognition Using Smartphones* data set is built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
