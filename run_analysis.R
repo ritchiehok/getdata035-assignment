@@ -39,7 +39,7 @@ data <- select(data, matches('subject|activity|-mean\\(\\)|std\\(\\)'))
 ## step 3
 
 ## label 'activity_labels' data set
-names(activity.labels) <- c("activity", "activity-name")
+names(activity.labels) <- c("activity", "activities")
 
 ## merge activity names into main data set
 data <- merge(data, activity.labels, by = "activity")
@@ -62,14 +62,10 @@ names(data) <- sub("-X$", "-x", names(data))
 names(data) <- sub("-Y$", "-y", names(data))
 names(data) <- sub("-Z$", "-z", names(data))
 
-
 ## step 5
 
 ## averages by subject/activity
-##write.table(data %>%
-##    group_by(subject, activity-name) %>%
-##    summarize_each(funs(mean)) %>%
-##    select(-activity), row.name = FALSE)
-  
-## readme
-## 30 participants, 6 activities, 66 mean/std (11880 averages)
+write.table(data %>%
+    group_by(subject, activities) %>%
+    summarize_each(funs(mean)) %>%
+    select(-activity), file = "output.txt", row.names = FALSE)
