@@ -5,10 +5,10 @@ date: "December 19, 2015"
 ---
 
 ## Project Description
-The run_analysis.R script calculates the average of the mean and standard deviation measures by participant and activity.
+The 'run_analysis.R' script calculates the average of the mean and standard deviation measures by participant and activity.
 
 ##Study design and data processing
-The *Human Activity Recognition Using Smartphones* data set is built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+The 'Human Activity Recognition Using Smartphones' data set is built from the recordings of 30 subjects performing six activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 ###Collection of the raw data
 Human Activity Recognition Using Smartphones Data Set
@@ -30,9 +30,6 @@ The output file conforms to tidy data principles:
 - Each observation forms a row
 - Each type of observational unit forms a table
 
-###Guide to create output file
-Description on how to create the tidy data file (1. download the data, ...)/
-
 ###Cleaning of the data
 The run_analysis.R script accomplishes the following steps:
 
@@ -44,7 +41,10 @@ The run_analysis.R script accomplishes the following steps:
 
 (4) Appropriately labels the data set with descriptive variable names 
 
-(5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  [See ReadMe file for additional details: https://github.com/ritchiehok/getdata035-assignment/blob/master/README.md]
+(5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+
+See ReadMe file for additional details:
+https://github.com/ritchiehok/getdata035-assignment/blob/master/README.md
 
 ##Description of the variables in the output data set
 The output data set contains the average of the mean and standard deviation measures by subject and activity.
