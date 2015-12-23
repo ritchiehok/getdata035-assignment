@@ -1,4 +1,4 @@
----
+/---
 title: "Codebook for Data Analysis Work on Human Activity Recognition using Smartphones"
 author: "Ritchie Hok"
 date: "December 19, 2015"
@@ -32,20 +32,24 @@ The output file conforms to tidy data principles:
 - Each variable forms a column
 - Each observation forms a row
 - Each type of observational unit forms a table
-- 
+
 ###Guide to create output file
 Description on how to create the tidy data file (1. download the data, ...)/
 
 ###Cleaning of the data
 The run_analysis.R script accomplishes the following steps:
 (1) Merges the training and the test sets to create one data set
+
 (2) Extracts only the measurements on the mean and standard deviation for each measurement 
+
 (3) Uses descriptive activity names to name the activities in the data set
-(4) Appropriately labels the data set with descriptive variable names. 
+
+(4) Appropriately labels the data set with descriptive variable names 
+
 (5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  [See ReadMe file for additional details: https://github.com/ritchiehok/getdata035-assignment/blob/master/README.md]
 
 ##Description of the variables in the output data set
-The output data set contains the mean of the mean and standard deviation measures by participant and activity.
+The output data set contains the average of the mean and standard deviation measures by subject and activity.
 
 There are 30 participants in total, each with measurements for six activities of daily living (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) for a total of 180 rows.  Mean measurements are recorded for 66 mean and standard deviation variables which are described below (68 columns in total when subject and activity are included).
 
